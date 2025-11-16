@@ -62,3 +62,68 @@
 #result span {
     color: #ebeb07;
 }
+
+/* ====== MOBILE SCREENS (max-width: 600px) ====== */
+@media (max-width: 600px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    .calculator h1 {
+        font-size: 32px;
+        text-align: center;
+        line-height: 38px;
+    }
+
+    .calculator h1 span {
+        font-size: 42px;
+    }
+
+    .input-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 25px;
+    }
+
+    .input-box input[type="date"] {
+        width: 90%;
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .input-box button {
+        width: 90%;
+        font-size: 18px;
+        padding: 12px 0;
+    }
+
+    #result {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+}
+
+
+/* ====== TABLET SCREENS (max-width: 900px) ====== */
+@media (max-width: 900px) {
+
+    .calculator h1 {
+        font-size: 40px;
+    }
+
+    .input-box {
+        width: 80%;
+        padding: 25px;
+    }
+
+    .input-box input[type="date"] {
+        width: 100%;
+    }
+
+    .input-box button {
+        width: 100%;
+    }
+}
